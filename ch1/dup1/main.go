@@ -15,6 +15,8 @@ import (
 )
 
 func main() {
+	// map的key是string类型，value是int类型
+	// 内置函数make用于创建map
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 	for input.Scan() {
