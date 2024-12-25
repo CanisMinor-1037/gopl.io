@@ -12,8 +12,9 @@ import (
 	"strings"
 )
 
-//!+
+// !+
 func main() {
+	// 使用strings包的Join函数, 将os.Args[1:]中的元素连接成一个字符串, 并用空格分隔
 	fmt.Println(strings.Join(os.Args[1:], " "))
 }
 
