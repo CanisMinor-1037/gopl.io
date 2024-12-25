@@ -14,6 +14,7 @@ import (
 
 func main() {
 	s, sep := "", ""
+	// for循环的range格式可以遍历数组、切片、字符串、map和channel
 	for _, arg := range os.Args[1:] {
 		s += sep + arg
 		sep = " "
